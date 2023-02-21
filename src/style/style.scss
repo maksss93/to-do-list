@@ -1,0 +1,9 @@
+body {
+    background-color: $background-color;
+    color: blue;
+    // user-select: none;
+    .header {
+        background-color: #fff;
+        color: $text-color;
+    }
+}
