@@ -1,6 +1,12 @@
 body {
     background-color: $background-color;
     color: blue;
+    @include tablet {
+        background-color: blue;
+    }
+    @include desktop {
+        background-color: red;
+    }
     // user-select: none;
     .header {
         background-color: #fff;
