@@ -1,6 +1,5 @@
 body {
     background-color: $background-color;
-    color: blue;
     @include tablet {
         background-color: blue;
     }
