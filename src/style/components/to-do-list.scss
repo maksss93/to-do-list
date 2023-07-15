@@ -1,0 +1,13 @@
+.note {
+    &__controls {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    &__btn {
+        min-width: 30px;
+        height: 25px;
+
+    }
+}
